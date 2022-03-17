@@ -188,7 +188,7 @@ text-gray-800"
 			Hauptstraße 69 in <br /> 67433 Neustadt an der Weinstraße
 			<br />
 			<br />
-			Gastgeber: <br /><br />
+			Gastgeberin: <br /><br />
 			Michaela Stadler
 
 			<br /> +49 1786 2959 54 <br />

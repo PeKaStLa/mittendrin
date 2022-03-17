@@ -91,8 +91,8 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			Hauptstra\xDFe 69 in <br> 67433 Neustadt an der Weinstra\xDFe
 			<br>
 			<br>
-			Gastgeber: <br><br>
-			Michaela und Andreas Stadler
+			Gastgeberin: <br><br>
+			Michaela Stadler
 
 			<br> +49 1786 2959 54 <br>
 			<a class="${"underline text-blue-700 hover:text-blue-400"}" href="${"mailto:info@stadlersoft.de"}">info@stadlersoft.de</a></p></div>
@@ -101,7 +101,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 	<div class="${"mx-auto my-10 w-90/100 xl:w-50/100 p-2 border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis bg-gray-100 rounded-lg shadow-md break-words"}"><p class="${"text-2xl lg:text-3xl "}">Impressum:
 			<br><br>
-			Michaela und Andreas Stadler
+			Michaela Stadler
 
 			<br> Westliche Luhrbachstra\xDFe 9
 			<br>67466 Lambrecht
