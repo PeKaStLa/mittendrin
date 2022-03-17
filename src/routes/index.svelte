@@ -30,34 +30,33 @@
 <div name="index" class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
-		<img class="  z-10 -left-14 -top-60" src="stadt_short.jpg" alt="Ausblick über Dächer" />
+		<img class="  " src="stadt_short.jpg" alt="Ausblick über Dächer" />
 		<h1
-			class="text-8xl  py-5  font-thin text-center absolute 
-left-16 top-0"
-		>
-			<span
-				class="top-0 left-0 rounded-md
- text-black   "
-			>
-				Ferienwohnung Mittendrin</span
-			>
+			class="text-5xl sm:text-5xl md:text-5xl  lg:text-6xl    xl:text-8xl
+              py-5  font-thin 
+            text-center absolute 
+            rounded-md text-black  
+            left-8 top-0
+ ">
+				Ferienwohnung Mittendrin
 		</h1>
-		<h2
-			class="text-4xl font-serif text-center 
-absolute left-60 top-48 text-gray-800"
+		<h2 
+			class="text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-serif text-center 
+            left-32 md:left-56 top-28 sm:top-20 md:top-28
+absolute xl:left-60 xl:top-40 text-gray-800"
 		>
-			Die Ferienwohnung im Zentrum von Neustadt!
+			Die Ferienwohnung mitten in Neustadt!
 		</h2>
 	</div>
 
 	<div class="p-12  ">
-		<p class="text-5xl    text-center ">
+		<p class="lg:text-5xl text-3xl   text-center ">
 			Seien Sie herzlich willkommen in unserer liebevoll renovierten Ferienwohnung.
 		</p>
 	</div>
 
 	<div class="p-8  ">
-		<p class="text-3xl    text-center ">
+		<p class="text-2xl lg:text-3xl    text-center ">
 			Das Haus aus dem 18. Jahrhundert steht als Einzeldenkmal unter Denkmalschutz in der
 			Fußgängerzone.
 		</p>
@@ -67,7 +66,7 @@ absolute left-60 top-48 text-gray-800"
     <Image src="wz.jpg"  alt="Wohnzimmer" />
 
 	<div class="p-8  ">
-		<p class="text-3xl text-center">
+		<p class="text-2xl lg:text-3xl text-center">
 			Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Stadtblick in
 			Neustadt an der Weinstraße. 3 gemütliche Schlafzimmer, 1 Wohnzimmer und 2 Bäder sind über eine
 			Treppe im 2.OG erreichbar. Zum Wohnzimmer gehört ein angrenzender Ankleide/Ablageraum.
@@ -77,7 +76,7 @@ absolute left-60 top-48 text-gray-800"
      <Image src="sz.jpg"  alt="Schlafzimmer" />
 
 	<div class="p-8  ">
-		<p class="text-3xl   text-center ">
+		<p class="text-2xl lg:text-3xl   text-center ">
 			Unsere Adresse ist ein ausgezeichneter Startpunkt für Radtouren in den herrlichen Pfälzer Wald
 			oder in die schöne Landschaft der Rheinebene. Ihre Fahrräder können in einem abschließbaren
 			Fahrradraum im Innenhof mit Steckdosen zum Aufladen Ihrer E-Bikes abgestellt werden. Ebenso
@@ -90,7 +89,7 @@ absolute left-60 top-48 text-gray-800"
 
 
 	<div class="p-8  ">
-		<p class="text-3xl   text-center ">
+		<p class="text-2xl lg:text-3xl   text-center ">
 			Wenn Sie eine zentral gelegene Unterkunft mitten in der Stadt suchen, dann liegen Sie hier
 			richtig. Restaurants, Cafes und Bars sind fußläufig in kürzester Zeit zu erreichen. Auch alle
 			Geschäfte des täglichen Bedarfs sind in unmittelbarer Nähe, zum Bahnhof sind es ca. 7 Minuten.
@@ -100,7 +99,7 @@ absolute left-60 top-48 text-gray-800"
     <Image src="fuss1.jpg"  alt="Fußgängerzone" />
 
 	<div class="p-8  ">
-		<p class="text-3xl   text-center ">
+		<p class="text-2xl lg:text-3xl   text-center ">
 			Die Fußgängerzone ist morgens bis 10:30 Uhr und abends ab 19 Uhr befahrbar. Zwischen diesen
 			Zeiten können Sie jedoch in wenigen Metern Entfernung zum Ausladen parken. Öffentliche
 			Parkplätze gegen Gebühr sind genügend vorhanden. Kostenlose Parkplätze sind fußläufig in ca.
@@ -113,7 +112,7 @@ absolute left-60 top-48 text-gray-800"
 
 
 	<div class="p-8  ">
-		<p class="text-3xl   text-center ">
+		<p class="text-2xl lg:text-3xl   text-center ">
 			Neustadt an der Weinstraße liegt eingebettet zwischen Pfälzer Wald und Weinbergen. Es hat eine
 			malerische Altstadt und verwinkelte Gässchen mit restaurierten Fachwerkhäusern.
 		</p>
@@ -140,7 +139,7 @@ absolute left-60 top-48 text-gray-800"
 	</div>
 
 	<div class="p-8  ">
-		<p class="text-3xl   text-center ">
+		<p class="text-2xl lg:text-3xl   text-center ">
 			Für Wander- oder Radtouren ist hier der ideale Ausgangspunkt. Hier gibt es viel zu
 			unternehmen, das Hambacher Schloß, romantische Weindörfer, urige Wanderhütten und viele
 			Weinfeste warten auf Ihren Besuch.
@@ -169,17 +168,18 @@ absolute left-60 top-48 text-gray-800"
 	</div>
     <div class=" mx-auto my-4 p-8 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words">
 
-		<p class="text-3xl  ">
+		<p class="text-2xl lg:text-3xl  ">
             Preise:<br/><br/>
-            xxxxx <br/> xxxx
+            1 Übernachtung bis 6 Gäste 210€.
+             <br/> <br/> 
+            1 Übernachtung ab 7 Gästen 330€.
             <br/>  <br/>
-    xxxx <br/>
-xxxxxx
+    Buchungen sind erst ab drei Übernachtungen möglich.
 </p>
     </div>
 
 	<div class="p-8">
-		<p class="text-5xl    text-center ">
+		<p class="text-3xl lg:text-5xl    text-center ">
 			Wir sind auch auf 
 			<a class="text-blue-700"
 				href="https://www.booking.com/hotel/de/ferienwohnung-altstadt-neustadt-an-der-weinstrasse.de.html"
@@ -193,7 +193,7 @@ xxxxxx
 
     <div class=" mx-auto my-10 p-8 w-90/100 xl:w-50/100 p 
     border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words">
-		<p class="text-3xl  ">
+		<p class="text-2xl lg:text-3xl  ">
             Adresse:<br/><br/>
             Hauptstraße 69 in <br/> 67433 Neustadt an der Weinstraße
             <br/>  <br/>
@@ -208,7 +208,7 @@ Michaela und Andreas Stadler</p>
 	<div class="  sm:pb-28 lg:pb-20" />
 
 	<div
-		class=" border-t-4 border-gray-400  text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
+		class=" border-t-4 border-gray-400  text-3xl lg:text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
 	>
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	</div>
