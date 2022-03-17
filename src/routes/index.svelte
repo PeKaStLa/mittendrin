@@ -7,7 +7,6 @@
 	let count: number = 0;
 	$: count = count;
 
-	let eyecatcher = 'static/stadt_short.jpg';
 
 	function add() {
 		count += 1;
@@ -31,7 +30,7 @@
 <div name="index" class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
-		<img class="  z-10 -left-14 -top-60" src={eyecatcher} alt="Ausblick über Dächer" />
+		<img class="  z-10 -left-14 -top-60" src="./stadt_short.jpg" alt="Ausblick über Dächer" />
 		<h1
 			class="text-8xl  py-5  font-thin text-center absolute 
 left-16 top-0"
@@ -65,7 +64,7 @@ absolute left-60 top-48 text-gray-800"
 	</div>
 
 
-    <Image src="static/wz.jpg"  alt="Wohnzimmer" />
+    <Image src="./wz.jpg"  alt="Wohnzimmer" />
 
 	<div class="p-8  ">
 		<p class="text-3xl text-center">
@@ -75,7 +74,7 @@ absolute left-60 top-48 text-gray-800"
 		</p>
 	</div>
 
-     <Image src="static/sz.jpg"  alt="Schlafzimmer" />
+     <Image src="./sz.jpg"  alt="Schlafzimmer" />
 
 	<div class="p-8  ">
 		<p class="text-3xl   text-center ">
@@ -86,7 +85,7 @@ absolute left-60 top-48 text-gray-800"
 		</p>
 	</div>
 
-    <Image src="static/hof2.jpg"  alt="Hof" />
+    <Image src="./hof2.jpg"  alt="Hof" />
 
 
 
@@ -98,7 +97,7 @@ absolute left-60 top-48 text-gray-800"
 		</p>
 	</div>
 
-    <Image src="static/fuss1.jpg"  alt="Fußgängerzone" />
+    <Image src="./fuss1.jpg"  alt="Fußgängerzone" />
 
 	<div class="p-8  ">
 		<p class="text-3xl   text-center ">
@@ -110,7 +109,7 @@ absolute left-60 top-48 text-gray-800"
 	</div>
 
 
-    <Image src="static/berg.jpg"  alt="Berge" />
+    <Image src="./berg.jpg"  alt="Berge" />
 
 
 	<div class="p-8  ">
@@ -125,7 +124,7 @@ absolute left-60 top-48 text-gray-800"
 			<a
 				href="https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-06.jpg#/media/File:150318-Hambacher-Schloss-06.jpg"
 			>
-			    <Image src="static/hsweit.jpg"  alt="Hambacher Schloss" />
+			    <Image src="./hsweit.jpg"  alt="Hambacher Schloss" />
 
             </a>By
 			<a href="//commons.wikimedia.org/wiki/User:BlueBreezeWiki" title="User:BlueBreezeWiki"
@@ -153,7 +152,7 @@ absolute left-60 top-48 text-gray-800"
 			<a
 				href="https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-05.jpg#/media/File:150318-Hambacher-Schloss-05.jpg"
 			>
-            <Image src="static/hsnah.jpg"  alt="Hambacher Schloss" />
+            <Image src="./hsnah.jpg"  alt="Hambacher Schloss" />
             
 			</a>By
 			<a href="//commons.wikimedia.org/wiki/User:BlueBreezeWiki" title="User:BlueBreezeWiki"
