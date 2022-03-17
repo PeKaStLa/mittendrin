@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Slider from './slider.svelte';
-    import Image from './image.svelte';
+	import Image from './image.svelte';
+	import Text from './text.svelte';
 
 	let array: number[] = [0];
 	$: array = array;
 	let count: number = 0;
 	$: count = count;
-
 
 	function add() {
 		count += 1;
@@ -30,102 +30,96 @@
 <div name="index" class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
-		<img class="  " src="stadt_short.jpg" alt="Ausblick über Dächer" />
+		<img class=" " src="stadt_short.jpg" alt="Ausblick über Dächer" />
 		<h1
-			class="text-5xl sm:text-5xl md:text-5xl  lg:text-6xl    xl:text-8xl
-              py-5  font-thin 
+			class="text-5xl sm:text-5xl md:text-5xl  lg:text-6xl
+            xl:text-8xl
+            2xl:text-9xl
+            2xl:left-20 
+            2xl:top-2
+            2xl4:top-10
+
+            py-5  font-thin
             text-center absolute 
             rounded-md text-black  
             left-8 top-0
- ">
-				Ferienwohnung Mittendrin
+ "
+		>
+			Ferienwohnung Mittendrin
 		</h1>
-		<h2 
-			class="text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-serif text-center 
-            left-32 md:left-56 top-28 sm:top-20 md:top-28
-absolute xl:left-60 xl:top-40 text-gray-800"
+		<h2
+			class="text-2xl md:text-2xl lg:text-3xl 
+            xl:text-4xl  text-center 
+            left-32 md:left-32 top-28 sm:top-20
+             md:top-24 lg:top-28
+absolute xl:left-60  xl:top-36
+2xl:top-52  2xl2:top-52   font-thin
+2xl2:text-6xl  
+2xl4:top-64 
+text-gray-800"
 		>
 			Die Ferienwohnung mitten in Neustadt!
 		</h2>
 	</div>
 
-	<div class="p-12  ">
-		<p class="lg:text-5xl text-3xl   text-center ">
+	<div class="px-12 pt-12 pb-4  ">
+		<p class="lg:text-5xl text-4xl   text-center ">
 			Seien Sie herzlich willkommen in unserer liebevoll renovierten Ferienwohnung.
 		</p>
 	</div>
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl    text-center ">
-			Das Haus aus dem 18. Jahrhundert steht als Einzeldenkmal unter Denkmalschutz in der
-			Fußgängerzone.
-		</p>
-	</div>
+	
 
+    <Text
+		text="Das Haus aus dem 18. Jahrhundert steht als Einzeldenkmal unter Denkmalschutz in der
+        Fußgängerzone."
+	/>
 
-    <Image src="wz.jpg"  alt="Wohnzimmer" />
+	<Image src="wz.jpg" alt="Wohnzimmer" />
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl text-center">
-			Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Stadtblick in
-			Neustadt an der Weinstraße. 3 gemütliche Schlafzimmer, 1 Wohnzimmer und 2 Bäder sind über eine
-			Treppe im 2.OG erreichbar. Zum Wohnzimmer gehört ein angrenzender Ankleide/Ablageraum.
-		</p>
-	</div>
+	<Text
+		text="Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Stadtblick in
+    Neustadt an der Weinstraße. 3 gemütliche Schlafzimmer, 1 Wohnzimmer und 2 Bäder sind über eine
+    Treppe im 2.OG erreichbar. Zum Wohnzimmer gehört ein angrenzender Ankleide/Ablageraum."
+	/>
 
-     <Image src="sz.jpg"  alt="Schlafzimmer" />
+	<Image src="sz.jpg" alt="Schlafzimmer" />
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl   text-center ">
-			Unsere Adresse ist ein ausgezeichneter Startpunkt für Radtouren in den herrlichen Pfälzer Wald
-			oder in die schöne Landschaft der Rheinebene. Ihre Fahrräder können in einem abschließbaren
-			Fahrradraum im Innenhof mit Steckdosen zum Aufladen Ihrer E-Bikes abgestellt werden. Ebenso
-			können Sie Ihre Fahrräder im Innenhof reinigen und warten.
-		</p>
-	</div>
+	<Text
+		text="Unsere Adresse ist ein ausgezeichneter Startpunkt für Radtouren in den herrlichen Pfälzer Wald
+    oder in die schöne Landschaft der Rheinebene. Ihre Fahrräder können in einem abschließbaren
+    Fahrradraum im Innenhof mit Steckdosen zum Aufladen Ihrer E-Bikes abgestellt werden. Ebenso
+    können Sie Ihre Fahrräder im Innenhof reinigen und warten."
+	/>
 
-    <Image src="hof2.jpg"  alt="Hof" />
+	<Image src="hof2_short.jpg" alt="Hof" />
 
+	<Text
+		text="Wenn Sie eine zentral gelegene Unterkunft mitten in der Stadt suchen, dann liegen Sie hier
+    richtig. Restaurants, Cafes und Bars sind fußläufig in kürzester Zeit zu erreichen. Auch alle
+    Geschäfte des täglichen Bedarfs sind in unmittelbarer Nähe, zum Bahnhof sind es ca. 7 Minuten."
+	/>
 
+	<Image src="fuss1.jpg" alt="Fußgängerzone" />
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl   text-center ">
-			Wenn Sie eine zentral gelegene Unterkunft mitten in der Stadt suchen, dann liegen Sie hier
-			richtig. Restaurants, Cafes und Bars sind fußläufig in kürzester Zeit zu erreichen. Auch alle
-			Geschäfte des täglichen Bedarfs sind in unmittelbarer Nähe, zum Bahnhof sind es ca. 7 Minuten.
-		</p>
-	</div>
+	<Text
+		text="Die Fußgängerzone ist morgens bis 10:30 Uhr und abends ab 19 Uhr befahrbar. Zwischen diesen
+    Zeiten können Sie jedoch in wenigen Metern Entfernung zum Ausladen parken. Öffentliche
+    Parkplätze gegen Gebühr sind genügend vorhanden. Kostenlose Parkplätze sind fußläufig in ca.
+    15 Minuten zu erreichen. Elektroautos parken in Neustadt umsonst."
+	/>
 
-    <Image src="fuss1.jpg"  alt="Fußgängerzone" />
+	<Image src="berg.jpg" alt="Berge" />
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl   text-center ">
-			Die Fußgängerzone ist morgens bis 10:30 Uhr und abends ab 19 Uhr befahrbar. Zwischen diesen
-			Zeiten können Sie jedoch in wenigen Metern Entfernung zum Ausladen parken. Öffentliche
-			Parkplätze gegen Gebühr sind genügend vorhanden. Kostenlose Parkplätze sind fußläufig in ca.
-			15 Minuten zu erreichen. Elektroautos parken in Neustadt umsonst.
-		</p>
-	</div>
+	<Text
+		text="Neustadt an der Weinstraße liegt eingebettet zwischen Pfälzer Wald und Weinbergen. Es hat eine
+    malerische Altstadt und verwinkelte Gässchen mit restaurierten Fachwerkhäusern."
+	/>
 
-
-    <Image src="berg.jpg"  alt="Berge" />
-
-
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl   text-center ">
-			Neustadt an der Weinstraße liegt eingebettet zwischen Pfälzer Wald und Weinbergen. Es hat eine
-			malerische Altstadt und verwinkelte Gässchen mit restaurierten Fachwerkhäusern.
-		</p>
-	</div>
-
-	<div class="py-6">
+	<div class=" pb-4">
 		<p class="text-center">
-			<a
-				href="https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-06.jpg#/media/File:150318-Hambacher-Schloss-06.jpg"
-			>
-			    <Image src="hsweit.jpg"  alt="Hambacher Schloss" />
-
-            </a>By
+			<Image src="hsweit.jpg" alt="Hambacher Schloss" />
+			By
 			<a href="//commons.wikimedia.org/wiki/User:BlueBreezeWiki" title="User:BlueBreezeWiki"
 				>BlueBreezeWiki</a
 			>
@@ -138,23 +132,16 @@ absolute xl:left-60 xl:top-40 text-gray-800"
 		</p>
 	</div>
 
-	<div class="p-8  ">
-		<p class="text-2xl lg:text-3xl   text-center ">
-			Für Wander- oder Radtouren ist hier der ideale Ausgangspunkt. Hier gibt es viel zu
-			unternehmen, das Hambacher Schloß, romantische Weindörfer, urige Wanderhütten und viele
-			Weinfeste warten auf Ihren Besuch.
-		</p>
-	</div>
+	<Text
+		text="Für Wander- oder Radtouren ist hier der ideale Ausgangspunkt. Hier gibt es viel zu
+    unternehmen, das Hambacher Schloß, romantische Weindörfer, urige Wanderhütten und viele
+    Weinfeste warten auf Ihren Besuch."
+	/>
 
-	<div class="py-6">
+	<div class=" pb-4">
 		<p class="text-center">
-			<a
-				href="https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-05.jpg#/media/File:150318-Hambacher-Schloss-05.jpg"
-			>
-
-            <Image src="hsnah.jpg"  alt="Hambacher Schloss" />
-            
-			</a>By
+			<Image src="hsnah.jpg" alt="Hambacher Schloss" />
+			By
 			<a href="//commons.wikimedia.org/wiki/User:BlueBreezeWiki" title="User:BlueBreezeWiki"
 				>BlueBreezeWiki</a
 			>
@@ -166,44 +153,75 @@ absolute xl:left-60 xl:top-40 text-gray-800"
 			<a href="https://commons.wikimedia.org/w/index.php?curid=57552292">Link</a>
 		</p>
 	</div>
-    <div class=" mx-auto my-4 p-8 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words">
-
+	<div
+		class=" mx-auto my-4 p-8 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
+	>
 		<p class="text-2xl lg:text-3xl  ">
-            Preise:<br/><br/>
-            1 Übernachtung bis 6 Gäste 210€.
-             <br/> <br/> 
-            1 Übernachtung ab 7 Gästen 330€.
-            <br/>  <br/>
-    Buchungen sind erst ab drei Übernachtungen möglich.
-</p>
-    </div>
+			Preise:
+			<br /><br />
+			1 Übernachtung bis 6 Gäste 210€.
+			<br /> <br />
+			1 Übernachtung für 7 bis max. 8 Gästen 330€.
+			<br /> <br />
+			Buchungen sind erst ab drei Übernachtungen möglich.
+		</p>
+	</div>
 
 	<div class="p-8">
 		<p class="text-3xl lg:text-5xl    text-center ">
-			Wir sind auch auf 
-			<a class="text-blue-700"
+			Wir sind auch auf
+			<a
+				class="text-blue-700"
 				href="https://www.booking.com/hotel/de/ferienwohnung-altstadt-neustadt-an-der-weinstrasse.de.html"
 			>
-				<p class="underline hover:text-blue-400">
-					booking.com!
-				</p>
+				<p class="underline hover:text-blue-400">booking.com!</p>
 			</a>
 		</p>
 	</div>
 
-    <div class=" mx-auto my-10 p-8 w-90/100 xl:w-50/100 p 
-    border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words">
+	<div
+		class=" mx-auto my-10 p-8 w-90/100 xl:w-50/100 p 
+    border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
+	>
 		<p class="text-2xl lg:text-3xl  ">
-            Adresse:<br/><br/>
-            Hauptstraße 69 in <br/> 67433 Neustadt an der Weinstraße
-            <br/>  <br/>
-    Inhaber: <br/><br/>
-Michaela und Andreas Stadler</p>
-    </div>
+			Adresse: <br /><br /> Ferienwohnung Mittendrin <br />
+			Hauptstraße 69 in <br /> 67433 Neustadt an der Weinstraße
+			<br />
+			<br />
+			Gastgeber: <br /><br />
+			Michaela und Andreas Stadler
+
+			<br /> +49 1786 2959 54 <br />
+			<a class="underline text-blue-700 hover:text-blue-400" href="mailto:info@stadlersoft.de"
+				>info@stadlersoft.de</a
+			>
+		</p>
+	</div>
 	<!-- Image-carousel-component: -->
 	<Slider />
 
-    
+	<div
+		class=" mx-auto my-10  w-90/100 xl:w-50/100 p-2
+    border-2 border-gray-300 overflow-hidden text-center 
+    overflow-ellipsis  bg-gray-100 rounded-lg shadow-md 
+    break-words"
+	>
+		<p class="text-2xl lg:text-3xl  ">
+			Impressum:
+			<br /><br />
+			Michaela und Andreas Stadler
+
+			<br /> Westliche Luhrbachstraße 9
+			<br />67466 Lambrecht
+			<br /> +49 1786 2959 54
+			<br />
+			<a
+				class="underline text-blue-700
+             hover:text-blue-400"
+				href="mailto:info@stadlersoft.de">info@stadlersoft.de</a
+			>
+		</p>
+	</div>
 
 	<div class="  sm:pb-28 lg:pb-20" />
 

@@ -2,14 +2,38 @@
 	let alt = 'Ferienwohnung_Mittendrin';
 
 	const images: string[] = [
-		"hof2.jpg",
-        "fuss1.jpg",
-        "stadt.jpg",
-        "sz.jpg",
-        "wz.jpg",
-        "berg.jpg"
+		'stadt.jpg',
+		'fuss1.jpg',
+		'hof2_short.jpg',
+		'wz.jpg',
+		'wz3.jpg',
+		'wz4.jpg',
+		'wz2.jpg',
+		'wz6.jpg',
+		'fuss2.jpg',
+		'sz.jpg',
+		'sz2.jpg',
+		'sz3.jpg',
+		'sz4.jpg',
+		'sz5.jpg',
+		'sz6.jpg',
+		'berg.jpg',
+		'bad.jpg',
+		'bad2.jpg',
+		'bad3.jpg',
+		'bad4.jpg',
+		'flur.jpg',
+		'flur2.jpg',
+		'as2.jpg',
+		'k1.jpg',
+		'k2.jpg',
+		'wein1.jpg',
+		't1.jpg',
+		't2.jpg',
+		'hof4_short.jpg',
+		'as1.jpg'
 	];
-    
+
 	let counter: number = 0;
 	$: counter = counter;
 
@@ -19,22 +43,22 @@
 	//seconds every other image is visible
 	let _OTHER_TIMERS: number = 4;
 
-    //Countdown function for 1000 Milli-Seconds:
+	//Countdown function for 1000 Milli-Seconds:
 	setInterval(() => {
 		if (_FIRST_TIMER >= 1) {
-            //Count down the the timer here. 
+			//Count down the the timer here.
 			_FIRST_TIMER--;
 		} else {
-            //When 0 is reached the image-carousel continues to the next image.
+			//When 0 is reached the image-carousel continues to the next image.
 			_continue();
 		}
 	}, 1000);
 
 	function _continue() {
-        //Reset timer
+		//Reset timer
 		_FIRST_TIMER = _OTHER_TIMERS;
 
-        //If last image is reached, go to the first image again.
+		//If last image is reached, go to the first image again.
 		if (counter == images.length - 1) {
 			counter = 0;
 		} else {
@@ -43,10 +67,10 @@
 	}
 
 	function _goback() {
-        //Reset timer
+		//Reset timer
 		_FIRST_TIMER = _OTHER_TIMERS;
 
-        //If first image is reached, go to the last image again.
+		//If first image is reached, go to the last image again.
 		if (counter == 0) {
 			counter = images.length - 1;
 		} else {
@@ -55,10 +79,10 @@
 	}
 
 	function _showslide(n: number) {
-        //Reset timer
+		//Reset timer
 		_FIRST_TIMER = _OTHER_TIMERS;
 
-        //Set counter to the image-number in the buttons's function.
+		//Set counter to the image-number in the buttons's function.
 		counter = n;
 	}
 </script>
@@ -68,8 +92,7 @@
 		{#each images as image}
 			<span
 				class="{counter == images.indexOf(image) ? 'animate-bounce  bg-[#717171]' : 'bg-[#bbb]'}
-             md:h-6 sm:h-6 md:w-6 sm:w-6 h-10 
-             w-10 mx-1  transition  ease-in-out hover:duration-500
+             md:h-6 sm:h-6 md:w-6 sm:w-6 h-10  shadow-md   w-10 mx-1  transition  ease-in-out hover:duration-500
               hover:bg-[#717171] cursor-pointer rounded-full inline-block "
 				on:click={() => {
 					_showslide(images.indexOf(image));
@@ -82,7 +105,7 @@
 		class="absolute top-[40%] 
             rounded-md 2xl:rounded-lg
             bg-white text-black hover:text-white hover:bg-gray-500 
-             transition ease-in-out hover:duration-500
+            shadow-md transition ease-in-out hover:duration-500
              sm:pb-6  sm:pl-2 sm:pr-2 sm:pt-6 sm:text-3xl 
              lg:pb-7  lg:pl-3 lg:pr-2 lg:pt-7  lg:text-5xl 
              2xl:pb-8  2xl:pl-4 2xl:pr-4 2xl:pt-8  2xl:text-5xl 
@@ -96,7 +119,7 @@
 		class=" absolute top-[40%] 
             rounded-md 2xl:rounded-lg
             bg-white text-black hover:text-white hover:bg-gray-500 
-            transition ease-in-out hover:duration-500
+            transition ease-in-out hover:duration-500 shadow-md
             sm:pb-6  sm:pl-2 sm:pr-2 sm:pt-6 sm:text-3xl 
             lg:pb-7  lg:pl-2 lg:pr-3 lg:pt-7  lg:text-5xl 
             2xl:pb-8  2xl:pl-4 2xl:pr-4 2xl:pt-8  2xl:text-5xl 
@@ -121,7 +144,9 @@
         2xl7:max-w-50/100  
         2xl8:max-w-50/100  
         m-auto
-        rounded-xl 
+        rounded-xl
+        shadow-lg 
+        border-2 border-gray-300
           "
 		src={images[counter]}
 		{alt}
@@ -131,7 +156,7 @@
 		{#each images as image}
 			<span
 				class="{counter == images.indexOf(image) ? 'animate-bounce  bg-[#717171]' : 'bg-[#bbb]'}
-         md:h-6 sm:h-6 md:w-6 sm:w-6 h-10 
+         md:h-6 sm:h-6 md:w-6 sm:w-6 h-10  shadow-md
          w-10 mx-1  transition  ease-in-out hover:duration-500
           hover:bg-[#717171] cursor-pointer rounded-full inline-block "
 				on:click={() => {
