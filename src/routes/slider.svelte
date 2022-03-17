@@ -92,7 +92,7 @@
 		{#each images as image}
 			<span
 				class="{counter == images.indexOf(image) ? 'animate-bounce  bg-[#717171]' : 'bg-[#bbb]'}
-             md:h-6 sm:h-6 md:w-6 sm:w-6 h-10  shadow-md   w-10 mx-1  transition  ease-in-out hover:duration-500
+				m-0.5 sm:h-6  sm:w-6 lg:h-10 h-5 w-5 shadow-md   lg:w-10 mx-1  transition  ease-in-out hover:duration-500
               hover:bg-[#717171] cursor-pointer rounded-full inline-block "
 				on:click={() => {
 					_showslide(images.indexOf(image));
@@ -106,7 +106,8 @@
             rounded-md 2xl:rounded-lg
             bg-white text-black hover:text-white hover:bg-gray-500 
             shadow-md transition ease-in-out hover:duration-500
-             sm:pb-6  sm:pl-2 sm:pr-2 sm:pt-6 sm:text-3xl 
+
+             pb-6  pl-2 pr-2 pt-6 text-3xl 
              lg:pb-7  lg:pl-3 lg:pr-2 lg:pt-7  lg:text-5xl 
              2xl:pb-8  2xl:pl-4 2xl:pr-4 2xl:pt-8  2xl:text-5xl 
             2xl4:pb-10  2xl4:pl-8 2xl4:pr-8 2xl4:pt-10  2xl4:text-7xl 
@@ -120,7 +121,7 @@
             rounded-md 2xl:rounded-lg
             bg-white text-black hover:text-white hover:bg-gray-500 
             transition ease-in-out hover:duration-500 shadow-md
-            sm:pb-6  sm:pl-2 sm:pr-2 sm:pt-6 sm:text-3xl 
+            pb-6  pl-2 pr-2 pt-6 text-3xl 
             lg:pb-7  lg:pl-2 lg:pr-3 lg:pt-7  lg:text-5xl 
             2xl:pb-8  2xl:pl-4 2xl:pr-4 2xl:pt-8  2xl:text-5xl 
             2xl4:pb-10  2xl4:pl-8 2xl4:pr-8 2xl4:pt-10  2xl4:text-7xl 
@@ -156,8 +157,8 @@
 		{#each images as image}
 			<span
 				class="{counter == images.indexOf(image) ? 'animate-bounce  bg-[#717171]' : 'bg-[#bbb]'}
-         md:h-6 sm:h-6 md:w-6 sm:w-6 h-10  shadow-md
-         w-10 mx-1  transition  ease-in-out hover:duration-500
+				m-0.5 sm:h-6  sm:w-6 lg:h-10 h-5 w-5  shadow-md
+         mx-1  transition  ease-in-out hover:duration-500
           hover:bg-[#717171] cursor-pointer rounded-full inline-block "
 				on:click={() => {
 					_showslide(images.indexOf(image));

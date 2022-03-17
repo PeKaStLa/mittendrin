@@ -32,7 +32,7 @@
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
 		<img class=" " src="stadt_short.jpg" alt="Ausblick über Dächer" />
 		<h1
-			class="text-5xl sm:text-5xl md:text-5xl  lg:text-6xl
+			class="text-3xl sm:text-5xl md:text-5xl  lg:text-6xl
             xl:text-8xl
             2xl:text-9xl
             2xl:left-20 
@@ -42,15 +42,19 @@
             py-5  font-thin
             text-center absolute 
             rounded-md text-black  
-            left-8 top-0
+            left-4 sm:left-8 -top-5 sm:top-0
  "
 		>
 			Ferienwohnung Mittendrin
 		</h1>
 		<h2
-			class="text-2xl md:text-2xl lg:text-3xl 
+			class="text-lg sm:text-2xl md:text-2xl lg:text-3xl 
             xl:text-4xl  text-center 
-            left-32 md:left-32 top-28 sm:top-20
+			top-9 
+			max-w-[60%]
+			sm:max-w-full
+			left-16
+            sm:left-32 md:left-32  sm:top-20
              md:top-24 lg:top-28
 absolute xl:left-60  xl:top-36
 2xl:top-52  2xl2:top-52   font-thin
@@ -63,7 +67,7 @@ text-gray-800"
 	</div>
 
 	<div class="px-12 pt-12 pb-4  ">
-		<p class="lg:text-5xl text-4xl   text-center ">
+		<p class="text-3xl lg:text-5xl sm:text-4xl   text-center ">
 			Seien Sie herzlich willkommen in unserer liebevoll renovierten Ferienwohnung.
 		</p>
 	</div>
@@ -223,7 +227,7 @@ text-gray-800"
 		</p>
 	</div>
 
-	<div class="  sm:pb-28 lg:pb-20" />
+	<div class=" pb-32 sm:pb-28 lg:pb-20" />
 
 	<div
 		class=" border-t-4 border-gray-400  text-3xl lg:text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
