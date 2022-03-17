@@ -1,16 +1,17 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set(["berg.jpg","favicon.png","fuss1.jpg","hof2.jpg","hsmittel.jpg","hsnah.jpg","hsweit.jpg","stadt.jpg","stadt_short.jpg","sz.jpg","wz.jpg"]),
+	assets: new Set(["as1.jpg","as2.jpg","bad.jpg","bad2.jpg","bad3.jpg","bad4.jpg","berg.jpg","favicon.png","flur.jpg","flur2.jpg","fuss1.jpg","fuss2.jpg","hof2.jpg","hof2_short.jpg","hof4_short.jpg","hsmittel.jpg","hsnah.jpg","hsweit.jpg","k1.jpg","k2.jpg","stadt.jpg","stadt_short.jpg","sz.jpg","sz2.jpg","sz3.jpg","sz4.jpg","sz5.jpg","sz6.jpg","t1.jpg","t2.jpg","wein1.jpg","wz.jpg","wz2.jpg","wz3.jpg","wz4.jpg","wz5.jpg","wz6.jpg"]),
 	mimeTypes: {".jpg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-9b43361a.js","js":["start-9b43361a.js","chunks/vendor-33cb9a14.js"],"css":[]},
+		entry: {"file":"start-f1d26e6d.js","js":["start-f1d26e6d.js","chunks/vendor-33cb9a14.js"],"css":[]},
 		nodes: [
 			() => import('./server/nodes/0.js'),
 			() => import('./server/nodes/1.js'),
 			() => import('./server/nodes/2.js'),
 			() => import('./server/nodes/3.js'),
 			() => import('./server/nodes/4.js'),
-			() => import('./server/nodes/5.js')
+			() => import('./server/nodes/5.js'),
+			() => import('./server/nodes/6.js')
 		],
 		routes: [
 			{
@@ -51,6 +52,16 @@ export const manifest = {
 				path: "/slide",
 				shadow: null,
 				a: [0,5],
+				b: [1]
+			},
+			{
+				type: 'page',
+				key: "text",
+				pattern: /^\/text\/?$/,
+				params: null,
+				path: "/text",
+				shadow: null,
+				a: [0,6],
 				b: [1]
 			}
 		]
