@@ -189,7 +189,7 @@ text-gray-800"
 			<br />
 			<br />
 			Gastgeber: <br /><br />
-			Michaela und Andreas Stadler
+			Michaela Stadler
 
 			<br /> +49 1786 2959 54 <br />
 			<a class="underline text-blue-700 hover:text-blue-400" href="mailto:info@stadlersoft.de"
@@ -209,7 +209,7 @@ text-gray-800"
 		<p class="text-2xl lg:text-3xl  ">
 			Impressum:
 			<br /><br />
-			Michaela und Andreas Stadler
+			Michaela Stadler
 
 			<br /> Westliche Luhrbachstraße 9
 			<br />67466 Lambrecht
