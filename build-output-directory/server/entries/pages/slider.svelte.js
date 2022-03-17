@@ -2,14 +2,7 @@ import { c as create_ssr_component, a as each, b as add_attribute, e as escape }
 let alt = "Ferienwohnung_Mittendrin";
 let _OTHER_TIMERS = 4;
 const Slider = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  const images = [
-    "./hof2.jpg",
-    "./fuss1.jpg",
-    "./stadt.jpg",
-    "./sz.jpg",
-    "./wz.jpg",
-    "./berg.jpg"
-  ];
+  const images = ["hof2.jpg", "fuss1.jpg", "stadt.jpg", "sz.jpg", "wz.jpg", "berg.jpg"];
   let counter = 0;
   let _FIRST_TIMER = 6;
   setInterval(() => {

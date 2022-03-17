@@ -1,9 +1,9 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set(["berg.JPG","favicon.png","fuss1.jpg","hof2.JPG","hsmittel.jpg","hsnah.jpg","hsweit.jpg","stadt.JPG","stadt_short.jpg","sz.JPG","wz.JPG"]),
-	mimeTypes: {".JPG":"image/jpeg",".png":"image/png",".jpg":"image/jpeg"},
+	assets: new Set(["berg.jpg","favicon.png","fuss1.jpg","hof2.jpg","hsmittel.jpg","hsnah.jpg","hsweit.jpg","stadt.jpg","stadt_short.jpg","sz.jpg","wz.jpg"]),
+	mimeTypes: {".jpg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-c6931d8e.js","js":["start-c6931d8e.js","chunks/vendor-33cb9a14.js"],"css":[]},
+		entry: {"file":"start-9b43361a.js","js":["start-9b43361a.js","chunks/vendor-33cb9a14.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

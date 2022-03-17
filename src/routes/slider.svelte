@@ -2,12 +2,12 @@
 	let alt = 'Ferienwohnung_Mittendrin';
 
 	const images: string[] = [
-		"./hof2.jpg",
-        "./fuss1.jpg",
-        "./stadt.jpg",
-        "./sz.jpg",
-        "./wz.jpg",
-        "./berg.jpg"
+		"hof2.jpg",
+        "fuss1.jpg",
+        "stadt.jpg",
+        "sz.jpg",
+        "wz.jpg",
+        "berg.jpg"
 	];
     
 	let counter: number = 0;

@@ -6,7 +6,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 
 <div name="${"index"}" class="${"bg-gradient-to-b from-transparent to-white"}">
-	<div class="${"z-30 relative bg-gradient-to-b from-transparent to-white "}"><img class="${"z-10 -left-14 -top-60"}" src="${"./stadt_short.jpg"}" alt="${"Ausblick \xFCber D\xE4cher"}">
+	<div class="${"z-30 relative bg-gradient-to-b from-transparent to-white "}"><img class="${"z-10 -left-14 -top-60"}" src="${"stadt_short.jpg"}" alt="${"Ausblick \xFCber D\xE4cher"}">
 		<h1 class="${"text-8xl py-5 font-thin text-center absolute left-16 top-0"}"><span class="${"top-0 left-0 rounded-md text-black "}">Ferienwohnung Mittendrin</span></h1>
 		<h2 class="${"text-4xl font-serif text-center absolute left-60 top-48 text-gray-800"}">Die Ferienwohnung im Zentrum von Neustadt!
 		</h2></div>
@@ -19,14 +19,14 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		</p></div>
 
 
-    ${validate_component(Image, "Image").$$render($$result, { src: "./wz.jpg", alt: "Wohnzimmer" }, {}, {})}
+    ${validate_component(Image, "Image").$$render($$result, { src: "wz.jpg", alt: "Wohnzimmer" }, {}, {})}
 
 	<div class="${"p-8 "}"><p class="${"text-3xl text-center"}">Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Stadtblick in
 			Neustadt an der Weinstra\xDFe. 3 gem\xFCtliche Schlafzimmer, 1 Wohnzimmer und 2 B\xE4der sind \xFCber eine
 			Treppe im 2.OG erreichbar. Zum Wohnzimmer geh\xF6rt ein angrenzender Ankleide/Ablageraum.
 		</p></div>
 
-     ${validate_component(Image, "Image").$$render($$result, { src: "./sz.jpg", alt: "Schlafzimmer" }, {}, {})}
+     ${validate_component(Image, "Image").$$render($$result, { src: "sz.jpg", alt: "Schlafzimmer" }, {}, {})}
 
 	<div class="${"p-8 "}"><p class="${"text-3xl text-center "}">Unsere Adresse ist ein ausgezeichneter Startpunkt f\xFCr Radtouren in den herrlichen Pf\xE4lzer Wald
 			oder in die sch\xF6ne Landschaft der Rheinebene. Ihre Fahrr\xE4der k\xF6nnen in einem abschlie\xDFbaren
@@ -34,7 +34,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			k\xF6nnen Sie Ihre Fahrr\xE4der im Innenhof reinigen und warten.
 		</p></div>
 
-    ${validate_component(Image, "Image").$$render($$result, { src: "./hof2.jpg", alt: "Hof" }, {}, {})}
+    ${validate_component(Image, "Image").$$render($$result, { src: "hof2.jpg", alt: "Hof" }, {}, {})}
 
 
 
@@ -43,7 +43,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			Gesch\xE4fte des t\xE4glichen Bedarfs sind in unmittelbarer N\xE4he, zum Bahnhof sind es ca. 7 Minuten.
 		</p></div>
 
-    ${validate_component(Image, "Image").$$render($$result, { src: "./fuss1.jpg", alt: "Fu\xDFg\xE4ngerzone" }, {}, {})}
+    ${validate_component(Image, "Image").$$render($$result, { src: "fuss1.jpg", alt: "Fu\xDFg\xE4ngerzone" }, {}, {})}
 
 	<div class="${"p-8 "}"><p class="${"text-3xl text-center "}">Die Fu\xDFg\xE4ngerzone ist morgens bis 10:30 Uhr und abends ab 19 Uhr befahrbar. Zwischen diesen
 			Zeiten k\xF6nnen Sie jedoch in wenigen Metern Entfernung zum Ausladen parken. \xD6ffentliche
@@ -52,7 +52,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		</p></div>
 
 
-    ${validate_component(Image, "Image").$$render($$result, { src: "./berg.jpg", alt: "Berge" }, {}, {})}
+    ${validate_component(Image, "Image").$$render($$result, { src: "berg.jpg", alt: "Berge" }, {}, {})}
 
 
 	<div class="${"p-8 "}"><p class="${"text-3xl text-center "}">Neustadt an der Weinstra\xDFe liegt eingebettet zwischen Pf\xE4lzer Wald und Weinbergen. Es hat eine
@@ -60,7 +60,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		</p></div>
 
 	<div class="${"py-6"}"><p class="${"text-center"}"><a href="${"https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-06.jpg#/media/File:150318-Hambacher-Schloss-06.jpg"}">${validate_component(Image, "Image").$$render($$result, {
-    src: "./hsweit.jpg",
+    src: "hsweit.jpg",
     alt: "Hambacher Schloss"
   }, {}, {})}
 
@@ -76,7 +76,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		</p></div>
 
 	<div class="${"py-6"}"><p class="${"text-center"}"><a href="${"https://commons.wikimedia.org/wiki/File:150318-Hambacher-Schloss-05.jpg#/media/File:150318-Hambacher-Schloss-05.jpg"}">${validate_component(Image, "Image").$$render($$result, {
-    src: "./hsnah.jpg",
+    src: "hsnah.jpg",
     alt: "Hambacher Schloss"
   }, {}, {})}
             
