@@ -82,9 +82,10 @@ text-gray-800"
 	<Image src="wz.jpg" alt="Wohnzimmer" />
 
 	<Text
-		text="Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Stadtblick in
-    Neustadt an der Weinstraße. 3 gemütliche Schlafzimmer, 1 Wohnzimmer und 2 Bäder sind über eine
-    Treppe im 2.OG erreichbar. Zum Wohnzimmer gehört ein angrenzender Ankleide/Ablageraum."
+		text="Unsere neu renovierte, helle Wohnung erwartet Sie mit kostenfreiem WLAN und Blick auf die Dächer der Stadt.
+		Hier in Neustadt an der Weinstraße stehen Ihnen 100m² zur Verfügung. 
+		3 gemütliche Schlafzimmer, 1 Wohnzimmer und 2 Bäder sind über eine Treppe im 2.OG erreichbar. 
+	    Zum Wohnzimmer gehört ein angrenzender Ankleide/Ablageraum."
 	/>
 
 	<Image src="sz.jpg" alt="Schlafzimmer" />
