@@ -8,6 +8,9 @@
 	let count: number = 0;
 	$: count = count;
 
+	let prices;
+	let slider;
+
 	function add() {
 		count += 1;
 	}
@@ -27,7 +30,7 @@
 -->
 
 <!-- Main-DIV with whole index-page -->
-<div name="index" class=" bg-gradient-to-b from-transparent to-white">
+<div name="index" on:click= {()=> { prices.scrollIntoView(); window.scrollBy(0,-50) }} class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
 		<img class=" " src="stadt_short.jpg" alt="Ausblick über Dächer" />
@@ -158,8 +161,8 @@ text-gray-800"
 			<a href="https://commons.wikimedia.org/w/index.php?curid=57552292">Link</a>
 		</p>
 	</div>
-	<div
-		class=" mx-auto my-4 p-8 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
+	<div bind:this={prices} id="prices"
+		class=" mx-auto my-16 p-6 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
 	>
 		<p class="text-2xl lg:text-3xl  ">
 			Preise:
@@ -203,7 +206,9 @@ text-gray-800"
 		</p>
 	</div>
 	<!-- Image-carousel-component: -->
+	<div bind:this={slider} id="slider">
 	<Slider />
+</div>
 
 	<div
 		class=" mx-auto my-10  w-90/100 xl:w-50/100 p-2
@@ -231,7 +236,7 @@ text-gray-800"
 	<div class=" pb-20 sm:pb-16 " />
 
 	<div
-		class=" border-t-4 border-gray-400 text-xl md:text-3xl lg:text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
+		class=" border-t-2 border-gray-400 text-xl md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"
 	>
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	</div>
