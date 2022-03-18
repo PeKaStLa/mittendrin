@@ -228,10 +228,10 @@ text-gray-800"
 		</p>
 	</div>
 
-	<div class=" pb-32 sm:pb-28 lg:pb-20" />
+	<div class=" pb-20 sm:pb-16 " />
 
 	<div
-		class=" border-t-4 border-gray-400  text-3xl lg:text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
+		class=" border-t-4 border-gray-400 text-xl md:text-3xl lg:text-4xl p-4 fixed bottom-0 bg-blue-400 w-[100%] text-center"
 	>
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	</div>
