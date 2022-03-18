@@ -17,7 +17,7 @@ p-8
  overflow-hidden text-center 
  overflow-ellipsis 
   break-words
-  border-2 border-gray-300  bg-gray-100 rounded-lg shadow-md
+  border-2 border-gray-300  bg-gray-100 rounded-lg shadow-lg
 
   ">
 

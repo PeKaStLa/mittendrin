@@ -30,10 +30,10 @@
 -->
 
 <!-- Main-DIV with whole index-page -->
-<div name="index" on:click= {()=> { prices.scrollIntoView(); window.scrollBy(0,-50) }} class=" bg-gradient-to-b from-transparent to-white">
+<div name="index"  class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
-		<img class=" " src="stadt_short.jpg" alt="Ausblick über Dächer" />
+		<img class=" border-b-2 border-gray-400 shadow-xl " src="stadt_short.jpg" alt="Ausblick über Dächer" />
 		<h1
 			class="text-3xl sm:text-5xl md:text-5xl  lg:text-6xl
             xl:text-8xl
@@ -75,7 +75,16 @@ text-gray-800"
 		</p>
 	</div>
 
+	<!--  border-8 border-blue-400 rounded-lg p-4 font-medium text-blue-900 text-center text-2xl -->
+	<div class=" text-center md:p-8 my-4">
 	
+		<button on:click= {()=> { slider.scrollIntoView(); window.scrollBy(0,-50) }} 
+			class="shadow-lg hover:shadow-2xl btn-primary text-xl sm:text-3xl mx-16 my-4 md:m-4 py-4 p-2 md:p-6" >Direkt zu den Bildern</button>
+	
+		<button on:click= {()=> { prices.scrollIntoView(); window.scrollBy(0,-50) }} 
+		class="shadow-lg hover:shadow-2xl btn-primary text-xl sm:text-3xl mx-16 my-4 py-4 md:m-4 p-2 md:p-6" >Direkt zu den Preisen</button>
+	
+	</div>
 
     <Text
 		text="Das Haus aus dem 18. Jahrhundert steht als Einzeldenkmal unter Denkmalschutz in der
@@ -162,7 +171,7 @@ text-gray-800"
 		</p>
 	</div>
 	<div bind:this={prices} id="prices"
-		class=" mx-auto my-16 p-6 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
+		class=" mx-auto my-12 mt-20 p-10 w-90/100 xl:w-50/100 p border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
 	>
 		<p class="text-2xl lg:text-3xl  ">
 			Preise:
@@ -188,7 +197,7 @@ text-gray-800"
 	</div>
 
 	<div
-		class=" mx-auto my-10 p-8 w-90/100 xl:w-50/100 p 
+		class=" mx-auto mt-16 mb-36 p-8 w-90/100 xl:w-50/100
     border-2 border-gray-300 overflow-hidden text-center overflow-ellipsis  bg-gray-100 rounded-lg shadow-md break-words"
 	>
 		<p class="text-2xl lg:text-3xl  ">
@@ -211,7 +220,7 @@ text-gray-800"
 </div>
 
 	<div
-		class=" mx-auto my-10  w-90/100 xl:w-50/100 p-2
+		class=" mx-auto my-20  w-90/100 xl:w-50/100 p-6
     border-2 border-gray-300 overflow-hidden text-center 
     overflow-ellipsis  bg-gray-100 rounded-lg shadow-md 
     break-words"
@@ -236,7 +245,8 @@ text-gray-800"
 	<div class=" pb-20 sm:pb-16 " />
 
 	<div
-		class=" border-t-2 border-gray-400 text-xl md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"
+		class=" border-t-2 border-blue-300 text-xl 
+		md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"
 	>
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	</div>

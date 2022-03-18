@@ -18,6 +18,6 @@
     md:w-90/100 w-95/100 my-4
      m-auto rounded-xl
     border-4 border-gray-300
-    shadow-md
+    shadow-lg
     "
       src={src} alt={alt} />
