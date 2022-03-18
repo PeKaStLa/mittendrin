@@ -1,4 +1,4 @@
-import { c as create_ssr_component, b as add_attribute } from "../../chunks/index-7340f048.js";
+import { c as create_ssr_component, a as add_attribute } from "../../chunks/index-13c0de55.js";
 const Slide = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { src } = $$props;
   let { alt } = $$props;

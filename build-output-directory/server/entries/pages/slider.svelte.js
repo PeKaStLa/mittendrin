@@ -1,4 +1,4 @@
-import { c as create_ssr_component, a as each, b as add_attribute, e as escape } from "../../chunks/index-7340f048.js";
+import { c as create_ssr_component, b as each, a as add_attribute, e as escape } from "../../chunks/index-13c0de55.js";
 let alt = "Ferienwohnung_Mittendrin";
 let _OTHER_TIMERS = 4;
 const Slider = create_ssr_component(($$result, $$props, $$bindings, slots) => {
