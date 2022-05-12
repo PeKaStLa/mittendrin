@@ -5,10 +5,10 @@ export let alt: string;
 // 	import Image from './image.svelte';
 // <Image src={images[counter]} alt={alt} />
 
-
 </script>
 
 
+/**
 <img class="
 sm:max-w-90/100
 md:max-w-90/100 
@@ -26,3 +26,4 @@ rounded-xl animate-fade
   "
   src={src} alt={alt} />
 
+*/

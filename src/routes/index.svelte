@@ -33,7 +33,8 @@
 <div name="index"  class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
-		<img class=" border-b-2 border-gray-400 shadow-xl " src="stadt_short.jpg" alt="Ausblick über Dächer" />
+		<img class=" border-b-2 border-gray-300 shadow-xl " 
+		src="stadt_short_2_grad_gedreht.jpg" alt="Ausblick über Dächer" />
 		<h1
 			class="text-3xl sm:text-5xl md:text-5xl  lg:text-6xl
             xl:text-8xl
@@ -176,9 +177,11 @@ text-gray-800"
 		<p class="text-2xl lg:text-3xl  ">
 			Preise:
 			<br /><br />
-			1 Übernachtung bis 6 Gäste 210€.
+			1 Übernachtung für bis zu 4 Gäste: 210€.
+			<br /><br />
+			1 Übernachtung für bis zu 6 Gäste: 240€.
 			<br /> <br />
-			1 Übernachtung für 7 bis max. 8 Gästen 330€.
+			1 Übernachtung für bis zu 8 Gäste: 330€.
 			<br /> <br />
 			Buchungen sind erst ab drei Übernachtungen möglich.
 		</p>
