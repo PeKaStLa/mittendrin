@@ -252,5 +252,19 @@ text-gray-800"
 		md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"
 	>
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
+	
+	
+<div
+		class=" text-xs"
+	>
+	by Peter Stadler - made with SvelteKit and TailwindCSS
 	</div>
+
+
+
+
+	</div>
+	
+
 </div>
+
