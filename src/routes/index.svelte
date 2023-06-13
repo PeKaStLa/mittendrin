@@ -37,21 +37,6 @@
 		<img class=" border-b-2 border-gray-300 shadow-xl " 
 		src="stadt_short_2_grad_gedreht.jpg" alt="Ausblick über Dächer" />
 		
-		<p class="text-xs
-             font-thin
-             absolute 
-           text-gray-100  
-            left-0 bottom-0 ">
-		 by Peter Stadler - made with SvelteKit and TailwindCSS
-		</p>
-		<p class="text-xs
-             font-thin
-             absolute 
-           text-white
-            left-0 bottom-0 ">
-		 by Peter Stadler - made with SvelteKit and TailwindCSS
-		</p>
-
 
 		<h1
 			class="text-3xl sm:text-5xl md:text-5xl  lg:text-6xl
@@ -264,12 +249,19 @@ text-gray-800"
 			<a
 				class="underline text-blue-700
              hover:text-blue-400"
-				href="mailto:info@stadlersoft.de">info@stadlersoft.de</a
-			>
+				href="mailto:info@stadlersoft.de">info@stadlersoft.de</a>
+		
+		</p>
+			<p class="
+			text-xs pt-8
+             font-thin
+           text-black
+             ">
+		 by Peter Stadler - made with SvelteKit and TailwindCSS
 		</p>
 	</div>
 
-	<div class=" pb-20 sm:pb-16 " />
+	<div class=" pb-16 sm:pb-12 " />
 
 	<div
 		class=" border-t-2 border-blue-300 text-xl 
