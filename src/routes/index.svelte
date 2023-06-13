@@ -33,8 +33,26 @@
 <div name="index"  class=" bg-gradient-to-b from-transparent to-white">
 	<!-- DIV with 2x header and 1 image -->
 	<div class="z-30 relative bg-gradient-to-b from-transparent to-white ">
+		
 		<img class=" border-b-2 border-gray-300 shadow-xl " 
 		src="stadt_short_2_grad_gedreht.jpg" alt="Ausblick über Dächer" />
+		
+		<p class="text-xs
+             font-thin
+             absolute 
+           text-gray-100  
+            left-0 bottom-0 ">
+		 by Peter Stadler - made with SvelteKit and TailwindCSS
+		</p>
+		<p class="text-xs
+             font-thin
+             absolute 
+           text-white
+            left-0 bottom-0 ">
+		 by Peter Stadler - made with SvelteKit and TailwindCSS
+		</p>
+
+
 		<h1
 			class="text-3xl sm:text-5xl md:text-5xl  lg:text-6xl
             xl:text-8xl
@@ -49,8 +67,14 @@
             left-4 sm:left-8 -top-5 sm:top-0
  "
 		>
+		
 			Ferienwohnung Mittendrin
 		</h1>
+
+
+
+
+
 		<h2
 			class="text-lg sm:text-2xl md:text-2xl lg:text-3xl 
             xl:text-4xl  text-center 
@@ -254,12 +278,6 @@ text-gray-800"
 		Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	
 	
-<div
-		class=" text-xs"
-	>
-	by Peter Stadler - made with SvelteKit and TailwindCSS
-	</div>
-
 
 
 

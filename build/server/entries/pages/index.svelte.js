@@ -10,8 +10,20 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 <div name="${"index"}" class="${"bg-gradient-to-b from-transparent to-white"}">
 	<div class="${"z-30 relative bg-gradient-to-b from-transparent to-white "}"><img class="${"border-b-2 border-gray-300 shadow-xl "}" src="${"stadt_short_2_grad_gedreht.jpg"}" alt="${"Ausblick \xFCber D\xE4cher"}">
+		
+		<p class="${"text-xs font-thin absolute text-gray-100 left-0 bottom-0 "}">by Peter Stadler - made with SvelteKit and TailwindCSS
+		</p>
+		<p class="${"text-xs font-thin absolute text-white left-0 bottom-0 "}">by Peter Stadler - made with SvelteKit and TailwindCSS
+		</p>
+
+
 		<h1 class="${"text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl 2xl:left-20 2xl:top-2 2xl4:top-10 py-5 font-thin text-center absolute rounded-md text-black left-4 sm:left-8 -top-5 sm:top-0 "}">Ferienwohnung Mittendrin
 		</h1>
+
+
+
+
+
 		<h2 class="${"text-lg sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-center top-9 max-w-[60%] sm:max-w-full left-16 sm:left-32 md:left-32 sm:top-20 md:top-24 lg:top-28 absolute xl:left-60 xl:top-36 2xl:top-52 2xl2:top-52 font-thin 2xl2:text-6xl 2xl4:top-64 text-gray-800"}">Die Ferienwohnung mitten in Neustadt!
 		</h2></div>
 
@@ -121,7 +133,9 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	<div class="${"border-t-2 border-blue-300 text-xl md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"}">Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	
 	
-<div class="${"text-xs"}">by Peter Stadler - made with SvelteKit and TailwindCSS
-	</div></div></div>`;
+
+
+
+	</div></div>`;
 });
 export { Routes as default };

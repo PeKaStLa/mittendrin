@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set(["as1.jpg","as2.jpg","bad.jpg","bad2.jpg","bad3.jpg","bad4.jpg","berg.jpg","favicon.png","flur.jpg","flur2.jpg","fuss1.jpg","fuss2.jpg","hof2_short.jpg","hof4_short.jpg","hsmittel.jpg","hsnah.jpg","hsweit.jpg","k1.jpg","k2.jpg","stadt.jpg","stadt_short.jpg","stadt_short_2_grad_gedreht.jpg","sz.jpg","sz2.jpg","sz3.jpg","sz4.jpg","sz5.jpg","sz6.jpg","t1.jpg","t2.jpg","wein1.jpg","wz.jpg","wz2.jpg","wz3.jpg","wz4.jpg","wz5.jpg","wz6.jpg"]),
 	mimeTypes: {".jpg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-44907eb1.js","js":["start-44907eb1.js","chunks/index-4234105b.js"],"css":[]},
+		entry: {"file":"start-ae16d130.js","js":["start-ae16d130.js","chunks/index-4234105b.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
