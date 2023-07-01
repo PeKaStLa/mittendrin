@@ -257,7 +257,7 @@ text-gray-800"
              font-thin
            text-black
              ">
-		 by Peter Stadler - made with SvelteKit and TailwindCSS
+		 by Peter Stadler - made with SvelteKit and TailwindCSS, 01.07.2023
 		</p>
 	</div>
 
