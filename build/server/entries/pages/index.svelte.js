@@ -11,11 +11,6 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <div name="${"index"}" class="${"bg-gradient-to-b from-transparent to-white"}">
 	<div class="${"z-30 relative bg-gradient-to-b from-transparent to-white "}"><img class="${"border-b-2 border-gray-300 shadow-xl "}" src="${"stadt_short_2_grad_gedreht.jpg"}" alt="${"Ausblick \xFCber D\xE4cher"}">
 		
-		<p class="${"text-xs font-thin absolute text-gray-100 left-0 bottom-0 "}">by Peter Stadler - made with SvelteKit and TailwindCSS
-		</p>
-		<p class="${"text-xs font-thin absolute text-white left-0 bottom-0 "}">by Peter Stadler - made with SvelteKit and TailwindCSS
-		</p>
-
 
 		<h1 class="${"text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl 2xl:left-20 2xl:top-2 2xl4:top-10 py-5 font-thin text-center absolute rounded-md text-black left-4 sm:left-8 -top-5 sm:top-0 "}">Ferienwohnung Mittendrin
 		</h1>
@@ -126,9 +121,11 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			<br>67466 Lambrecht
 			<br> +49 1786 2959 54
 			<br>
-			<a class="${"underline text-blue-700 hover:text-blue-400"}" href="${"mailto:info@stadlersoft.de"}">info@stadlersoft.de</a></p></div>
+			<a class="${"underline text-blue-700 hover:text-blue-400"}" href="${"mailto:info@stadlersoft.de"}">info@stadlersoft.de</a></p>
+			<p class="${"text-xs pt-8 font-thin text-black "}">by Peter Stadler - made with SvelteKit and TailwindCSS, 01.07.2023
+		</p></div>
 
-	<div class="${"pb-20 sm:pb-16 "}"></div>
+	<div class="${"pb-16 sm:pb-12 "}"></div>
 
 	<div class="${"border-t-2 border-blue-300 text-xl md:text-3xl lg:text-4xl p-3 fixed bottom-0 bg-blue-400 w-[100%] text-center"}">Bei Interesse rufen Sie uns an unter +49 1786 2959 54 !
 	
