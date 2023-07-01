@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-build-output-directory
+/build
 /.svelte-kit
 /package
 .env
